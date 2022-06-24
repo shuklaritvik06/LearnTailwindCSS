@@ -1,0 +1,23 @@
+{
+  "name": "manage",
+  "version": "1.0.0",
+  "description": "- [x] [Facebook Clone](https://facebookloginclone.surge.sh/) - [ ] [Manage]()",
+  "main": "index.js",
+  "scripts": {
+      "build": "tailwindcss -i ./input.css -o ./css/style.css",
+      "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuklaritvik06/LearnTailwindCSS.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shuklaritvik06/LearnTailwindCSS/issues"
+  },
+  "homepage": "https://github.com/shuklaritvik06/LearnTailwindCSS#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
